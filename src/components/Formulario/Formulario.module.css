@@ -1,0 +1,64 @@
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tituloFormulario {
+    font-weight: bolder;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 40px;
+    color: var(--corDoTexto);
+}
+
+.formInput {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--corDoTexto);
+}
+
+.formButton {
+    width: 100%;
+    margin-top: 35px;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--corDeFundoBotao);
+    cursor: pointer;
+    color: var(--corDoTexto);
+}
+
+.formButton:hover {
+    background-color: var(--corDeFundoBotaoSecundario);
+    font-weight: bold;
+    transition: ease 0.7s;
+}
+
+.apresentaResultado {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: yellow;
+    margin-top: 30px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.tituloResultado {
+    font-size: 32px;
+}
+
+.resultadoImc{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.classificacaoResultado {
+    font-size: 16px;
+}

@@ -1,0 +1,20 @@
+/* Configuração do reset do site */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Definindo algumas váriaveis */
+:root {
+  --corDeFundo: #2f3640;
+  --corDoTexto: #dcdde1;
+  --corDeFundoBotao: #192a56;
+  --corDeFundoBotaoSecundario: #273c75;
+}
+
+/* Aqui foi aplicado somente a cor de fundo do site */
+body {
+  background-color: var(--corDeFundo);
+}
