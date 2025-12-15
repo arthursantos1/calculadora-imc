@@ -16,10 +16,18 @@
     display: block;
     width: 100%;
     padding: 8px;
-    margin-top: 18px;
     border-radius: 5px;
     border: none;
     background-color: var(--corDoTexto);
+}
+
+.labelInput {
+    display: block;
+    color: var(--corDoTexto);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 8px;
 }
 
 .formButton {
@@ -39,26 +47,11 @@
     transition: ease 0.7s;
 }
 
-.apresentaResultado {
-    max-width: 480px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: yellow;
-    margin-top: 30px;
+.erroMessage {
+    color: #ff0000;
+    font-weight: bold;
     text-align: center;
-    padding: 18px;
-    border-radius: 5px;
-}
-
-.tituloResultado {
-    font-size: 32px;
-}
-
-.resultadoImc{
-    font-size: 28px;
-    margin: 15px 0;
-}
-
-.classificacaoResultado {
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 12px;
+    font-style: italic;
 }

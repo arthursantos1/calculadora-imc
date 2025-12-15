@@ -1,0 +1,23 @@
+.apresentaResultado {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: yellow;
+    margin-top: 30px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.tituloResultado {
+    font-size: 32px;
+}
+
+.resultadoImc {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.classificacaoResultado {
+    font-size: 16px;
+}
