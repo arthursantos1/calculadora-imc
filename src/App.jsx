@@ -10,7 +10,6 @@ function App() {
     if (peso > 0 && altura > 0) {
       const resultado = peso / (altura * altura);
       setImc(resultado.toFixed(2));
-      console.log(imc)
     } else {
       setImc(null);
     }
@@ -19,7 +18,7 @@ function App() {
   return (
     <>
       <Formulario onCalcular={calculaImc} />
-      <Resultado />
+      <Resultado resultadoImc={imc} />
     </>
   )
 }

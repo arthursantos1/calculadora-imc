@@ -2,7 +2,6 @@
     max-width: 480px;
     width: 100%;
     margin: 0 auto;
-    background-color: yellow;
     margin-top: 30px;
     text-align: center;
     padding: 18px;
@@ -19,5 +18,18 @@
 }
 
 .classificacaoResultado {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.corPesoNormal {
+    background-color: #008000;
+}
+
+.corSobrePeso {
+    background-color: #ffff00;
+}
+
+.corObesidade {
+    background-color: #ff0000;
 }
